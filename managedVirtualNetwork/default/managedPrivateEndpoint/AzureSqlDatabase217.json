@@ -1,0 +1,10 @@
+{
+	"name": "AzureSqlDatabase217",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/dcfef6e2-ae5a-4ebf-9eb8-8b0449bd8f50/resourceGroups/REPRO/providers/Microsoft.Sql/servers/newser",
+		"groupId": "sqlServer",
+		"fqdns": [
+			"newser.database.windows.net"
+		]
+	}
+}

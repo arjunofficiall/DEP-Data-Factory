@@ -1,0 +1,7 @@
+{
+	"name": "SHIRDEP",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "DEP Project SHIR"
+	}
+}

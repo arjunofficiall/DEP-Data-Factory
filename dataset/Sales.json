@@ -1,0 +1,17 @@
+{
+	"name": "Sales",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "onpremSQLserver",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "Sales",
+			"table": "Customer"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

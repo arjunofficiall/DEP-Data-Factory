@@ -1,0 +1,29 @@
+{
+	"name": "onpremSQLserver",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "SQLDEP",
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "SQLserverDEP",
+			"database": "AdventureWorks2022",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"authenticationType": "Windows",
+			"userName": "sadmin",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVault1",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "Password"
+			}
+		},
+		"connectVia": {
+			"referenceName": "SHIRDEP",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

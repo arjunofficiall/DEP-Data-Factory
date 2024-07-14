@@ -1,0 +1,35 @@
+{
+	"name": "AirflowDemo",
+	"properties": {
+		"type": "Airflow",
+		"description": "this is for demo to understand airflow features",
+		"typeProperties": {
+			"computeProperties": {
+				"location": "East US",
+				"computeSize": "Small",
+				"extraNodes": 0,
+				"enableAutoscale": true,
+				"autoScaleMinNodes": 3,
+				"autoScaleMaxNodes": 8
+			},
+			"airflowProperties": {
+				"airflowVersion": "2.6.3",
+				"gitSyncProperties": {
+					"gitServiceType": "Github",
+					"gitCredentialType": "None",
+					"repo": "https://github.com/arjunofficiall/DEP-Data-Factory.git",
+					"branch": "airflowdemo"
+				},
+				"airflowEnvironmentVariables": null,
+				"airflowRequirements": [],
+				"enableAADIntegration": true,
+				"enableTriggerers": false,
+				"userName": null,
+				"password": null,
+				"airflowEntityReferences": [],
+				"encryptedSecrets": [],
+				"secrets": null
+			}
+		}
+	}
+}

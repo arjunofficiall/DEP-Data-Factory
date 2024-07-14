@@ -1,0 +1,13 @@
+{
+	"name": "Blob",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "This is to test data flows feature in ADF",
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": "DefaultEndpointsProtocol=https;AccountName=depstact;EndpointSuffix=core.windows.net;",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDFCNzBDQ0E0LUUzMDQtNDU5NS04MjdFLTkzODM0OUQyOTNFNF9lYjE0ODNlNi00NWE4LTQxMDYtODczMi05MjRlMDY2NTE3ODAiDQp9"
+		}
+	}
+}

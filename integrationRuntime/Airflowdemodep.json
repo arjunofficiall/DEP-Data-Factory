@@ -1,0 +1,29 @@
+{
+	"name": "Airflowdemodep",
+	"properties": {
+		"type": "Airflow",
+		"description": "this is for demo learning only ",
+		"typeProperties": {
+			"computeProperties": {
+				"location": "East US",
+				"computeSize": "Small",
+				"extraNodes": 0,
+				"enableAutoscale": true,
+				"autoScaleMinNodes": 3,
+				"autoScaleMaxNodes": 8
+			},
+			"airflowProperties": {
+				"airflowVersion": "2.6.3",
+				"airflowEnvironmentVariables": null,
+				"airflowRequirements": [],
+				"enableAADIntegration": false,
+				"enableTriggerers": false,
+				"userName": "sadmin",
+				"password": null,
+				"airflowEntityReferences": [],
+				"encryptedSecrets": [],
+				"secrets": null
+			}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"name": "AirflowPipeline1",
+	"properties": {
+		"description": "related to airflow",
+		"activities": [
+			{
+				"name": "Wait1",
+				"description": "Related to airflow",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 10
+				}
+			}
+		],
+		"annotations": []
+	}
+}

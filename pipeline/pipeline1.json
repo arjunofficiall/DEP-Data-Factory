@@ -81,18 +81,16 @@
 				"userProperties": [],
 				"typeProperties": {
 					"dataset": {
-						"referenceName": "ls_mvnet",
+						"referenceName": "ds_csv",
 						"type": "DatasetReference"
 					},
-					"fieldList": [
-						"childItems"
-					],
+					"fieldList": [],
 					"storeSettings": {
 						"type": "AzureBlobFSReadSettings",
 						"enablePartitionDiscovery": false
 					},
 					"formatSettings": {
-						"type": "ParquetReadSettings"
+						"type": "DelimitedTextReadSettings"
 					}
 				}
 			}

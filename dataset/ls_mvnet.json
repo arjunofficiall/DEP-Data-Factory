@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"folderPath": "Sales",
+				"folderPath": "Sales/Get Metadata",
 				"fileSystem": "bronze"
 			},
 			"compressionCodec": "snappy"

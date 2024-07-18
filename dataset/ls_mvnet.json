@@ -5,6 +5,11 @@
 			"referenceName": "mvnetirLS",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"Table_Name": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "Parquet",
 		"typeProperties": {
@@ -13,7 +18,7 @@
 				"folderPath": "Sales/Get Metadata",
 				"fileSystem": "bronze"
 			},
-			"compressionCodec": "snappy"
+			"compressionCodec": "none"
 		},
 		"schema": [
 			{

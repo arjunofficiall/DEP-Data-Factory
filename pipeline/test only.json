@@ -1,9 +1,9 @@
 {
-	"name": "pipeline3",
+	"name": "test only",
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy data1",
+				"name": "Test Only",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
@@ -28,7 +28,8 @@
 					"sink": {
 						"type": "DelimitedTextSink",
 						"storeSettings": {
-							"type": "AzureBlobStorageWriteSettings"
+							"type": "AzureBlobStorageWriteSettings",
+							"copyBehavior": "FlattenHierarchy"
 						},
 						"formatSettings": {
 							"type": "DelimitedTextWriteSettings",

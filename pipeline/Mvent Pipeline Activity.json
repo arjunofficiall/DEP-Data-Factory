@@ -1,6 +1,7 @@
 {
-	"name": "pipeline1",
+	"name": "Mvent Pipeline Activity",
 	"properties": {
+		"description": "This is for test only",
 		"activities": [
 			{
 				"name": "mvnet_copy",

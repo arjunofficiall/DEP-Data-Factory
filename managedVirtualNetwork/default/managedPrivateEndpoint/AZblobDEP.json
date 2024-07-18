@@ -1,0 +1,7 @@
+{
+	"name": "AZblobDEP",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/dcfef6e2-ae5a-4ebf-9eb8-8b0449bd8f50/resourceGroups/Data_Engineering_Project_Arjun/providers/Microsoft.Storage/storageAccounts/datalakegen2dep",
+		"groupId": "blob"
+	}
+}

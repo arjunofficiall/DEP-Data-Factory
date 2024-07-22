@@ -5,10 +5,6 @@
 		"type": "AzureBlobFS",
 		"typeProperties": {
 			"url": "https://datalakegen2dep.dfs.core.windows.net/"
-		},
-		"connectVia": {
-			"referenceName": "mvnetir",
-			"type": "IntegrationRuntimeReference"
 		}
 	}
 }

@@ -163,6 +163,22 @@
 					"referenceName": "DEP_Databricks_1",
 					"type": "LinkedServiceReference"
 				}
+			},
+			{
+				"name": "Delete1",
+				"type": "Delete",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"enableLogging": true
+				}
 			}
 		],
 		"annotations": [],

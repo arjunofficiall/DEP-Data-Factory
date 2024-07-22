@@ -1,0 +1,14 @@
+{
+	"name": "SQLDBCDC",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "depsynapse1.database.windows.net",
+			"database": "master",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SystemAssignedManagedIdentity"
+		}
+	}
+}

@@ -27,8 +27,7 @@
 					"type": "Expression"
 				},
 				"fileSystem": "bronze"
-			},
-			"compressionCodec": "snappy"
+			}
 		},
 		"schema": []
 	},

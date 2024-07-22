@@ -1,5 +1,5 @@
 {
-	"name": "eventtrigger",
+	"name": "Event Trigger",
 	"properties": {
 		"annotations": [
 			"This is to test Event Based Changes in Storage Account"

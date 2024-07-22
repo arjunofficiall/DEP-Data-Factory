@@ -1,0 +1,19 @@
+{
+	"name": "trigger1",
+	"properties": {
+		"annotations": [
+			"This is for test reasons only"
+		],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 15,
+				"startTime": "2024-07-22T12:26:00",
+				"timeZone": "Greenwich Standard Time"
+			}
+		}
+	}
+}

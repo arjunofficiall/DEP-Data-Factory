@@ -47,7 +47,7 @@
 				"     ignoreNoFilesFound: false) ~> Movies",
 				"Movies derive({Year } = toInteger(trim(right(title, 6), '()')),",
 				"          title = toString(left(title, length(title)-6)),",
-				"     partitionBy('hash', 1)) ~> YearExtraction",
+				"     partitionBy('roundRobin', 2)) ~> YearExtraction",
 				"YearExtraction aggregate(MoviesCount = countAll({Year }, movieId),",
 				"     partitionBy('hash', 1)) ~> MoviesByYear",
 				"YearExtraction sink(allowSchemaDrift: true,",

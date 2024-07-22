@@ -1,0 +1,21 @@
+{
+	"name": "Tumbling Window",
+	"properties": {
+		"annotations": [
+			"This is to test Tumbling Trigger to retrieve historic / current & Futuristic data "
+		],
+		"runtimeState": "Stopped",
+		"type": "TumblingWindowTrigger",
+		"typeProperties": {
+			"frequency": "Minute",
+			"interval": 8,
+			"startTime": "2024-07-22T12:35:00Z",
+			"delay": "00:00:00",
+			"maxConcurrency": 50,
+			"retryPolicy": {
+				"intervalInSeconds": 30
+			},
+			"dependsOn": []
+		}
+	}
+}

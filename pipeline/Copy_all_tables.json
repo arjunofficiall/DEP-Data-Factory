@@ -163,6 +163,21 @@
 					"referenceName": "DEP_Databricks_1",
 					"type": "LinkedServiceReference"
 				}
+			},
+			{
+				"name": "WebHook1",
+				"type": "WebHook",
+				"dependsOn": [],
+				"policy": {
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"url": "go",
+					"method": "POST",
+					"timeout": "00:10:00"
+				}
 			}
 		],
 		"annotations": [],

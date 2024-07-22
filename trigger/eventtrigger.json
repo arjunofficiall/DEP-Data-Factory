@@ -1,0 +1,17 @@
+{
+	"name": "eventtrigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/bronze/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/dcfef6e2-ae5a-4ebf-9eb8-8b0449bd8f50/resourceGroups/Data_Engineering_Project_Arjun/providers/Microsoft.Storage/storageAccounts/datalakegen2dep",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
